@@ -1,0 +1,122 @@
+* {
+  margin: 0%;
+  scroll-behavior: smooth;
+}
+
+nav {
+  height: 80px;
+  position: center;
+  background-color: #7fbfd8;
+  text-decoration: none;
+  padding-top: 25px;
+  box-sizing: border-box;
+}
+
+nav.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav .navbar li {
+  text-decoration: none;
+}
+
+.navbar .menu li a {
+  text-decoration: none;
+}
+
+.boxes {
+  color: #13293d;
+  padding: 20px 50px;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: aqua;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.ph1 {
+  text-align: center;
+}
+
+div {
+  border-collapse: collapse;
+}
+
+.P1 {
+  border: solid 3px black;
+  flex-wrap: wrap;
+  height: 25vh;
+  display: flex;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  background-image: url("..//images/joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.P2 {
+  border: solid 3px black;
+  flex-wrap: wrap;
+  height: 25vh;
+  display: flex;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  background-image: url("..//images/roman-synkevych-vXInUOv1n84-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.assign1 {
+  border: solid 3px black;
+  flex-wrap: wrap;
+  height: 100px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.assign2 {
+  border: solid 3px black;
+  flex-wrap: wrap;
+  height: 100px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding-bottom: 30px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
